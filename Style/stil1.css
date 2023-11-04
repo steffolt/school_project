@@ -1,0 +1,19 @@
+.Poza{
+  margin-bottom: 15px;
+  border-radius:7px;
+}
+.link-intern{
+  color:#AAABB8;
+  text-decoration: none;
+  border-style:dashed;
+  padding:5px;
+  transition:background-color 0.3s, color 0,3s;
+  margin-right:35px;
+}
+.link-intern:hover{
+  background-color:#464866;
+  color:white;
+}
+#Continut{
+  border-left: solid 2px rgb(70, 72, 102);
+}

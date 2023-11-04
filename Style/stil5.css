@@ -1,0 +1,147 @@
+html{
+  font-family: Arial;
+  color:#03254c;
+}
+h2,
+h3,
+h1{
+  font-size: 60px;
+  text-align: center;
+  margin-top:150px;
+  margin-left:80px;
+  margin-bottom: 20px;
+}
+h2{
+  margin-top:0;
+  font-size:40px;
+}
+h3{
+  margin-top:0;
+  font-size:30px;
+  text-align: left;
+}
+.Poza{
+  margin:0;
+  width:104.8%;
+  height:150px;
+  object-fit: cover;
+  object-position: middle;
+  position:fixed
+}
+#Continut{
+  padding:0;
+}
+.linie-o{
+  margin-left: 140px;
+  margin-bottom:40px;
+}
+body{
+  background-color: #f2fafd;
+}
+#div-formular{
+  background:url("../Poze/fundal-form.jpg");
+  text-align: center;
+  margin-left:80px;
+  margin-bottom:50px;
+  border-radius: 20px;
+  padding:20px 50px;
+  box-shadow: 0 0 30px #03254c;
+  border-style: dashed;
+  border-width: 7px;
+  border-color: #caf0f8;
+}
+span{
+  font-family:Verdana;
+  font-size:20px;
+  color:#0b1f34;
+}
+form{
+  line-height: 40px;
+}
+.titlu-formular{
+  font-family:'Gill sans', Verdana;
+  font-size:35px;
+  color:#03254c;
+}
+textarea{
+  resize:none;
+}
+select,
+textarea,
+input{
+  border-radius: 5px;
+  border:none;
+  padding:5px 10px;
+  background-color: #03254cb9;
+  color:rgb(224, 244, 255);
+}
+.butoane{
+  padding:10px 20px;
+  margin-right:8px;
+  margin-bottom:3px;
+  background-color:rgb(224, 244, 255);
+  color:#03254cb9;
+  font-weight:bold;
+  transition:all 0.2s;
+}
+.butoane:hover{
+  cursor:pointer;
+  background-color: #03254cb9;
+  color:rgb(224, 244, 255);
+}
+.butoane:active{
+  background-color: #03254c50;
+}
+.nimic,
+.nimic:hover{
+  box-shadow: none;
+}
+select:hover,
+textarea:hover,
+input:hover{
+  box-shadow: 3px 3px 10px #03254cd7;
+}
+textarea::placeholder,
+input::placeholder{
+  color:rgb(160, 160, 160);
+}
+.imagine-buton{
+  width:70px;
+  height:70px;
+  padding:0;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px #03254cd7;
+  opacity:0.7;
+  transition:opacity 0.2s;
+}
+.imagine-buton:hover{
+  opacity: 1;
+}
+#stanga,
+#dreapta{
+  display: inline-block;
+  vertical-align: middle;
+  width:49%;
+}
+.lista-poza1{
+  list-style: url("../Poze/icon2.png");
+  font-size:22px;
+  margin-left: 40px; 
+  font-weight: bold;
+  line-height: 30px;
+}
+.lista-poza2{
+  list-style: url("../Poze/icon3.png");
+  font-size:20px;
+  margin-left: 40px;
+  font-weight: normal;
+}
+.lista-poza3{
+  list-style: url("../Poze/icon1.png");
+  font-size:18px;
+  margin-left: 40px; 
+}
+ul ul ul li{
+  list-style-position: inside;
+}
+

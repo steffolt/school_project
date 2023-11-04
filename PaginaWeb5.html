@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pagina Web 5</title>
+    <link rel="stylesheet" href="Style/stil_cuprins.css">
+    <link rel="stylesheet" href="Style/stil5.css">
+  </head>
+  <body>
+    <div id="Cuprins">
+      <h4><font face=Arial,Courier color="#2E9CCA">Cuprins</font></h4><hr>
+      <ul class="cuprins-lista">
+        <li><a class="Schimb-pagini" href="PaginaWeb1.html">Pagina Web 1</a></li>
+        <li><a class="Schimb-pagini" href="PaginaWeb2.html">Pagina Web 2</a></li>
+        <li><a class="Schimb-pagini" href="PaginaWeb3.html">Pagina Web 3</a></li>
+        <li><a class="Schimb-pagini" href="PaginaWeb4.html">Pagina Web 4</a></li>
+        <li><a class="Schimb-pagini-selectat" href="PaginaWeb5.html">Pagina Web 5</a></li>
+        <li><a class="Schimb-pagini" href="PaginaWeb6.html">Pagina Web 6</a></li>
+      </ul>
+    </div>
+    <div id="Continut">
+      <img class="Poza" src="Poze/fundal5.jpg">
+      <h1>Formular</h1>
+      <hr class="linie-o" size="3" width="80%" color="#03254c">
+      <div id="div-formular">
+        <form method="post" enctype="multipart/form-data">
+          <p class="titlu-formular">Formular de booking</p>
+          <span>Locatie:</span>
+          <input type="text" placeholder="Tara/Oras" minlength="5"><br>
+
+          <input class="nimic" type="checkbox"><span>Caut zbor</span>
+          <input class="nimic" type="checkbox"><span>Calatoresc in interes de serviciu</span><br>
+
+          <span>Check in:</span>
+          <input type="date">
+          <span>| Check out:</span>
+          <input type="date"><br>
+
+          <span>Numar adulti:</span>
+          <input class="numar" type="number" min="0" value="1">
+          <span>Numar copii:</span>
+          <input class="numar" type="number" min="0" value="1"><br>
+
+          <span>Numar camere:
+          <input class="nimic" type="radio" name="radio">1 camera |
+          <input class="nimic" type="radio" name="radio">2 camere |
+          <input class="nimic" type="radio" name="radio">3 camere</span><br>
+
+          <span>Conditii:</span><br>
+          <select size="1" multiple>
+            <option value="1">Intreaga cazare</option>
+            <option value="2">Masa</option>
+            <option value="3">Internet / Wifi</option>
+            <option value="5">Parcare</option>
+            <option value="6">Sauna</option>
+            <option value="7">Piscina</option>
+            <option value="8">Sala fitness</option>
+            <option value="9">Gratar</option>
+            <option value="10">Aer conditionat</option>
+          </select><br>
+
+          <span>Atasati poza cu buletinul:</span>
+          <input type="file"><br>
+
+          <span>Comentarii suplimentare:</span><br>
+          <textarea placeholder="Comentariu..." rows="4" cols="30" wrap="off" maxlength="150"></textarea><br>
+
+          <div id="stanga" align="left">
+            <input class="imagine-buton" type="image" src="Poze/button-imagine.jpg">
+          </div>
+          <div id="dreapta" align="right">
+            <input class="butoane" type="reset" value="Sterge">
+            <input class="butoane" type="submit" value="Trimite">
+          </div>
+        </form>
+      </div>
+      <hr class="linie-o" size="3" width="80%" color="#03254c">
+      <h2>Lista</h2>
+      <h3>Filtre</h3>
+      <ul class="lista-poza1">
+        <li>Modalitati de plata
+          <ul class="lista-poza2">
+            <li>Vouchere de vacanta
+              <ul class="lista-poza3">
+                <li>Card de vacanta Sodexo</li>
+                <li>Card de vacanta Pluxee</li>
+                <li>Card de vacanta Up</li>
+                <li>Card de vacanta Edenred</li>
+              </ul>
+            </li>
+            <li>Voucher Travelminit</li>
+            <li>Card</li>
+            <li>Virament bancar</li>
+            <li>Paypal</li>
+          </ul>
+        </li>
+        <li>Tip cazare
+          <ul class="lista-poza2">
+            <li>Hotel</li>
+            <li>Pensiune</li>
+            <li>Apartament</li>
+            <li>Vila</li>
+            <li>Cabana</li>
+            <li>Motel</li>
+            <li>Hostel</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
